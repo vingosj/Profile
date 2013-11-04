@@ -39,7 +39,7 @@ func SetTitle()
 		call append(line(".")+4, "")
 		call append(line(".")+5, "#!/usr/bin/env python")
 		call append(line(".")+6, "# -*- coding:utf-8 -*-")
-		call append(line(".")+6, "")
+		call append(line(".")+7, "")
 	
 	endif
 	if &filetype == 'cpp'
